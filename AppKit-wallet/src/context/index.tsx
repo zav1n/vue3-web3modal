@@ -1,6 +1,7 @@
 // context/index.tsx
 "use client";
 
+
 import { wagmiAdapter, projectId } from "@/config";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { createAppKit } from "@reown/appkit/react";
