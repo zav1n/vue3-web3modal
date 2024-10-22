@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 import { headers } from "next/headers"; // added
-import ContextProvider from "@/context";
+import ContextProvider from "@/AppKit";
 
 export const metadata: Metadata = {
   title: "AppKit Example App",
